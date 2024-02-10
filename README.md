@@ -4,6 +4,8 @@ By Daan Thielemans
 
 "A Python application to link your files to specific locations on a map."
 
+Originally made for 'Studiebureau Thielemans'
+
 ## Required python packages
 
 - folium ['pip install folium']
