@@ -1100,7 +1100,7 @@ class Ui_MainWindow(object):
         if any(char.isalpha() for char in latitude):
             # user is trying to input an address
             self.lineEdit_2.clear()
-            # Try to find matching coordinates for the address
+            # try to find matching coordinates for the address
             geolocator = Nominatim(user_agent="YourApp")
             try:
                 location = geolocator.geocode(latitude)
